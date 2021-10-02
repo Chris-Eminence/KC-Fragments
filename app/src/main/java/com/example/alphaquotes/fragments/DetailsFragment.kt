@@ -20,12 +20,18 @@ class DetailsFragment : Fragment() {
     private lateinit var track : String
     private lateinit var goal : String
 
+    companion object{
+        const val NAME = "name"
+        const val TRACK = "track"
+        const val GOAL = "goal"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let{
-            name = it.getString(name).toString()
-            track = it.getString(track).toString()
-            goal = it.getString(goal).toString()
+            name = it.getString(NAME).toString()
+            track = it.getString(TRACK).toString()
+            goal = it.getString(GOAL).toString()
         }
     }
 
