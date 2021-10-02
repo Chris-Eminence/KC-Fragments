@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlphaQuotes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</string>
+    <string name="goal">Goal for this android training</string>
+    <string name="track">Track</string>
+    <string name="full_name">Full Name</string>
+</resources>
